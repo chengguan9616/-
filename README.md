@@ -13,7 +13,7 @@
 2）发布者：可查看历史发布信息并查看人员。
 5. 建议模块
 兼职人员：可以在相关组件进行建议匿名上报。
-<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1361135963,570304265&fm=26&gp=0.jpg" width="30" height="30" />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%871.png" width="100%" height="100%" />
 
 ## 软件环境： 
  操作系统：Microsoft Windows 10, node环境

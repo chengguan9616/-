@@ -1,0 +1,27 @@
+<view class="list">
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+<!--  display: inline-block-->
+  <view style="background: red; width: 400px; height: 200px; display: inline-block" >
+    <cover-image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb.zol-img.com.cn%2Fdesk%2Fbizhi%2Fimage%2F2%2F960x600%2F1358992095435.jpg&refer=http%3A%2F%2Fb.zol-img.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619791167&t=2efdd77559492b0c1224e38de88db643"></cover-image>
+  </view>
+  <view style="background: green; width: 400px; height: 200px; display: inline-block">
+    <cover-image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=151293998,263049662&fm=26&gp=0.jpg"></cover-image>
+  </view>
+  <view style="background: blue; width: 400px; height: 200px; display: inline-block">
+    <cover-image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201311%2F02%2F112809qybz22ltn8ybxt2x.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619791167&t=3c07ab30e580e18cb387898eb3739ebd"></cover-image>
+  </view>
+  <view style="background: yellow; width: 400px; height: 200px; display: inline-block">
+    <cover-image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb.zol-img.com.cn%2Fdesk%2Fbizhi%2Fimage%2F3%2F960x600%2F1371608535388.jpg&refer=http%3A%2F%2Fb.zol-img.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619791167&t=3cb15b8492610dfd472f3bbd99c7cc06"></cover-image>
+  </view>
+</scroll-view>
+  <scroll-view scroll-y="true" style="height: 200px" class="content">
+      <view class="inner"   wx:for="{{arc_list}}" wx:for-item="item"   bindtap="first" data-cap="{{item.name}}">
+         <view>
+          <view>兼职：{{item.name}}</view>
+          <view class="time">时间：{{item.time}}</view>
+         </view>
+
+        <view class="money">{{item.pay}}/每小时</view>
+      </view>
+ </scroll-view>
+</view>

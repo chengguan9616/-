@@ -1,0 +1,9 @@
+<view class="list">
+  <view class="content"  wx:for="{{countlist}}" wx:for-item="item">
+    <view class="inner" bindtap="first" data-cap="{{item.name}}">
+    <view>兼职：{{item.name}}</view>
+    <view>时间：{{item.time}}</view>
+    <view>薪资：{{item.pay}}</view>
+   </view>
+ </view>
+</view>

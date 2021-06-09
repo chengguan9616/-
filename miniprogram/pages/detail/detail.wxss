@@ -1,0 +1,42 @@
+page{
+  padding:10px;
+  background:url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1133156703,1286726863&fm=26&gp=0.jpg") no-repeat;
+  background-size:100% 100%;
+  color:#fff;
+}
+.tui-btn-group{
+  padding: 10px;
+}
+.tui-btn-content{
+  height: 60px;
+  line-height: 60px;
+}
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+
+.title{
+  width:100%;
+  font-weight: bolder;
+  font-size:50rpx;
+  margin-bottom:30rpx;
+}
+
+.money{
+  color:#f20;
+}
+
+.time{
+  margin:10px 0px;
+}
+
+.button_mine {
+  position:absolute;
+  right:20rpx;
+  bottom:20rpx;
+}

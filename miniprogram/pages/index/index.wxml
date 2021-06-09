@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data class="abc" type="userNickName"></open-data>
+    </block>
+  </view>
+  <view class="usermotto">
+    <view bindtap="func1"><text >兼职列表</text>      <image  class="img" src="./跳转.png" mode=""></image></view>
+    <!-- <view bindtap="func2"><text >兼职发布</text>      <image  class="img" src="./跳转.png" mode=""></image></view> -->
+    <view bindtap="func4"><text >回到首页</text>      <image  class="img" src="./跳转.png" mode=""></image></view>
+    <view bindtap="func5"><text >一键安全</text>      <image  class="img" src="./跳转.png" mode=""></image></view>
+  </view>
+</view>

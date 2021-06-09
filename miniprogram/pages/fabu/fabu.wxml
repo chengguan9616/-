@@ -1,0 +1,45 @@
+<view class="container"> 
+ 
+
+ <view class="login-from"> 
+ 
+ <!--账号-->
+ <view class="inputView"> 
+ 
+  <label class="loginLab">简介</label> 
+  <input class="inputText" placeholder="请输入兼职简介" bindinput="Name" /> 
+ </view> 
+ <view class="line"></view> 
+  <!--账号-->
+  <view class="inputView"> 
+ 
+ <label class="loginLab">时间</label> 
+ <input class="inputText" type="datetime" placeholder="请输入时间" bindinput="Time" /> 
+</view> 
+<view class="line"></view> 
+ <!--账号-->
+ <view class="inputView"> 
+ 
+ <label class="loginLab">人数</label> 
+ <input class="inputText" placeholder="请输入需要人数" bindinput="About" /> 
+</view> 
+<view class="line"></view> 
+
+ <!--密码-->
+ <view class="inputView"> 
+  
+  <label class="loginLab">日薪</label> 
+  <input class="inputText" placeholder="请输入日薪" bindinput="Pay" /> 
+ </view> 
+ <view class="detail">
+   <label class="loginLab">具体</label> 
+   <textarea bindinput="Detail" name="" id="detail" cols="30" rows="10"></textarea>
+ </view>
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" bindtap="login">
+   提交
+  </button>
+ </view> 
+ </view> 
+</view>

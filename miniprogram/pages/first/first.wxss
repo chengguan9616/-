@@ -1,0 +1,43 @@
+/* pages/first/first.wxss */
+page{
+  /* background:url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201611%2F23%2F20161123231819_VCvWL.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619789624&t=76218440f91ff103db4a3cdf0c2a5967") no-repeat;
+  background-size:100% 100%; */
+  background:#E2E2D8;
+  /* opacity: 0.9; */
+}
+.time{
+  font-size:14px;
+}
+.content{
+
+  color:#000;
+
+}
+
+.inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:#f4f4f4;
+  /* opacity: 0.9;   */
+  width:700rpx;
+  border-radius:10rpx;
+  margin:0px auto;
+  height:120rpx;
+  padding:0px 15rpx;
+  padding-top:35rpx;
+  align-items:flex-start;
+  border-top:1px solid #ccc;
+}
+.content > view{
+   margin-top:20rpx;
+   /* width:50%;
+   overflow: hidden; */
+}
+
+.money{
+  color:#f00;
+  font-weight: bolder;
+  /* align-self:flex-start; */
+}
+

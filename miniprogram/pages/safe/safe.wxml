@@ -1,0 +1,21 @@
+<view class="wrapper">
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <map id="map" longitude="{{location.longitude}}" latitude="{{location.latitude}}" circles="{{circles}}" style="width: 100%; height: 250px;"></map>
+      <form bindsubmit="openLocation">
+        <view class="page-body-form">
+          <text class="page-body-form-key">经度</text>
+          <input class="page-body-form-value" type="text" value="{{location.longitude}}" name="longitude" />
+          <text class="page-body-form-key">维度</text>
+          <input class="page-body-form-value" type="text" value="{{location.latitude}}" name="latitude" />
+        </view>
+        <view class="page-body-buttons">
+          <button class="page-body-button" type="primary" bindtap="getLocation">一键报警</button>
+ 
+        </view>
+      </form>
+
+    </view>
+  </view>
+</view>
+

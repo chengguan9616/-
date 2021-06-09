@@ -1,0 +1,17 @@
+/* pages/first/first.wxss */
+page{
+  background:url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1133156703,1286726863&fm=26&gp=0.jpg") no-repeat;
+  background-size:100% 100%;
+}
+
+.content{
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.content > view{
+   margin-top:20rpx;
+   width:100%;
+   overflow: hidden;
+}

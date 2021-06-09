@@ -1,0 +1,17 @@
+<view class="list">
+  <view class="content" >
+      <view bindtap="first">
+      <view class="title">{{arc_list.name}}</view>
+      <view class="money">{{arc_list.pay}}</view>
+      <view class="time">时间：{{arc_list.time}}</view>
+      <view>人数：{{arc_list.about}}</view>
+      <view>具体要求：</view>
+      <view>{{arc_list.detail}}</view>
+   </view>
+   <view class=" button_mine tui-btn-content">
+    <view class="tui-btn-content">
+    <button bindtap="count" disabled="{{disabled}}" type="primary">{{login}}</button>
+  </view>
+  </view>
+ </view>
+</view>

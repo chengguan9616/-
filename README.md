@@ -14,6 +14,13 @@
 5. 建议模块
 兼职人员：可以在相关组件进行建议匿名上报。
 <img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%871.png"  />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%872.png"  />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%873.png"  />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%874.png"  />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%875.png"  />
+<img src="http://119.23.63.196:8085/image/%E5%9B%BE%E7%89%876.png"  />
+## 后台管理系统地址：
+1. http://119.23.63.196:8085/
 
 ## 软件环境： 
  操作系统：Microsoft Windows 10, node环境
